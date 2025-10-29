@@ -33,6 +33,7 @@ h3 {
 header {
 
     border: 2px solid var(--accent-color);
+    : #f6bb73 at 30%, white at 60%, #f6bb73 at 100% 30deg;
 
 	& h2 {
 		font-size: 175%;
@@ -47,20 +48,15 @@ header {
 	}
 	& img {
 		float: left;
-        margin-top:0.75em;
-        margin-bottom:0.75em;
-        margin-left: 1em;
-        margin-right: 1em;
-	}
+        margin: 0.75em 1em;
+    }
 }
 
 /* the styles for the main content */
 main {
 	clear: left;
-    padding-right: 1em;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    padding: 1em;
+
 }
 
 /* the styles for the footer */
