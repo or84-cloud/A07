@@ -79,7 +79,7 @@ main {
     padding-bottom: 1em;
 }
 
-main h2 img {
+main img {
     border: 4px double var(--accent-color);
     border-radius: 8px;
 }
