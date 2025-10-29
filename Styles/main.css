@@ -7,9 +7,10 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    border:2px, var(--accent-color);
+    border-bottom:2px, var(--accent-color);
 
 }
 
@@ -30,29 +31,46 @@ h3 {
 
 /* the styles for the header */
 header {
+
+    border: 2px solid var(--accent-color);
+
 	& h2 {
 		font-size: 175%;
-		text-indent: 30px;
+        padding-bottom: 0;
+
 	}
 	& h3 {
 		font-size: 130%;
 		font-style: italic;
-		text-indent: 30px;
+        padding-bottom: 1em;
+
 	}
 	& img {
 		float: left;
+        margin-top:0.75em;
+        margin-bottom:0.75em;
+        margin-left: 1em;
+        margin-right: 1em;
 	}
 }
 
 /* the styles for the main content */
 main {
 	clear: left;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 /* the styles for the footer */
-footer {
+footer{
+    background-color: var(--accent-color);
 	& p {
 		text-align: center;
+        color: white;
+        padding-top: 1em;
+        padding-bottom: 1em;
 	}
 }
 
@@ -60,3 +78,12 @@ footer {
 .large {
     font-size: 125%;
 }}
+
+*ol, p, ul{
+    padding:0.5em;
+}
+
+*ul{
+    margin-left:2em;
+}
+
